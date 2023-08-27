@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Style the main container */
+#main {
+  max-width: 50rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Style the title */
+#title {
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: #555;
+}
+
+.titulo h1 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #222;
+  letter-spacing: 1px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+.titulo h1 span {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #444;
+  word-spacing: 1px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+
+.titulo h1 span:after,
+.titulo h1 span:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  height: 5px;
+  background-color: #f8f8f8;
+}
+
+/* Center the image and caption */
+#img-div {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Style the image */
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 0.625rem;
+  box-shadow: 0 0 0.3125rem rgba(0, 0, 0, 0.2);
+}
+
+/* Style the image caption */
+#img-caption {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+/* Style the tribute info */
+#tribute-info {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+/* Style the timeline */
+ul {
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+ul li {
+  margin-bottom: 0.625rem;
+  line-height: 1.5;
+}
+
+/* Style the quote and citation */
+p {
+  font-style: italic;
+  margin-top: 1.5rem;
+}
+
+#citacao {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 2rem;
+  background-color: #555555c5;
+  border-radius: 1rem;
+  color: #fff;
+  padding: 1rem;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  margin-top: -0.625rem;
+  font-family: "Reenie Beanie", cursive;
+  font-size: 2rem;
+}
+
+/* Style the tribute link */
+#more {
+  text-align: center;
+}
+#tribute-link {
+  color: brown;
+  text-decoration: none;
+}
+
+#tribute-link:hover {
+  text-decoration: underline;
+}
